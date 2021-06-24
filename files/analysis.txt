@@ -1,0 +1,3 @@
+The worst case run time for the clear function is a Big O(n). 
+This is due to the clear function calling the clear function for the underlying list which
+has a for loop in it. a for loop has big O(n), so the whole funciton has a Big O(n)
